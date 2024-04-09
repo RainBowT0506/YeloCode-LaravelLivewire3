@@ -1,4 +1,9 @@
 <div>
+    @if (session('success'))
+        <span class="px-3 py-3 bg-green-600 text-white rounded">{{ session('success') }}</span>
+    @endif
+
+
     <form wire:submit='createNewUser' action="">
         <input class="block rounded border border-gray-100 px-3 py-1 mt-2" wire:model='name' type="text"
             placeholder="name">
