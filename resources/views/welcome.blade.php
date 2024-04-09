@@ -13,6 +13,6 @@
     <body class="antialiased">
 
         @livewire('clicker')
-        <livewire:clicker/>
+        {{-- <livewire:clicker/> --}}
     </body>
 </html>
